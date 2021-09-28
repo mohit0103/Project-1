@@ -55,7 +55,7 @@ def maxFrequency(listofmarks):
             print(j, "---->", listofmarks.count(j))
             if listofmarks.count(j) > Max:
                 Max = listofmarks.count(j)
-                mark = j4
+                mark = j
         i += 1
     return (mark, Max)
 mark, count = maxFrequency(scoreinDS)
